@@ -78,6 +78,7 @@
   position: relative;
   top: 200px;
   left: 50px;
+  max-width: 1000px;
   font-size: 100px;
   text-transform: uppercase;
   color: white;
@@ -118,6 +119,7 @@
   color: white;
   top: 575px;
   left: 79px;
+  max-width: 1000px;
   display: flex;
   z-index: 2;
 }
@@ -247,17 +249,18 @@
 }
 
 .column {
-  align-content: center;
+  /* align-content: center; */
 }
 
 .about-logo {
   margin: auto;
-  margin-top: 25px;
+  margin-top: 30px;
   width: 240px;
   aspect-ratio: 1/1;
   background-color: black;
   border-radius: 50%;
-  align-content: center;
+  /* align-content: center; */
+  padding-top: 65px;
 }
 
 .about-logo-image {
@@ -268,7 +271,7 @@
 }
 
 .about-title {
-  margin-top: 35px;
+  margin-top: 132px;
 }
 
 .about-text-column {
