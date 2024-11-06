@@ -83,6 +83,7 @@
 /* оно */
 .alignned-text {
   display: block;
+  text-align: left;
   letter-spacing: 30px;
 }
 
@@ -100,14 +101,13 @@
 .alignned-text-right {
   display: block;
   margin-top: 73px;
-  /* text-align: right; */
-  margin-left: 584px;
+  text-align: right;
   letter-spacing: 30px;
 }
 
 /* o */
 .no-letter-spacing {
-  letter-spacing: none;
+  letter-spacing: 0;
 }
 
 .cover-description {
@@ -120,8 +120,7 @@
 }
 
 .cover-description-letters {
-  position: relative;
-  top: 15px;
+  margin-top: 15px;
   word-spacing: 18px;
   font-size: 22px;
   text-transform: uppercase;
@@ -149,9 +148,7 @@
 }
 
 .lots {
-  position: relative;
-  top: 14px;
-  margin: 165px 24px 146px;
+  margin: 175px 24px 146px;
   min-height: 695px;
 }
 
@@ -227,13 +224,12 @@
   font-weight: 400;
   line-height: 24px;
   display: flex;
-  margin-top: 30px;
+  margin-top: 35px;
   margin-left: 40px;
 }
 
 .about {
-  position: relative;
-  top: 14px;
+  margin-top: 14px;
   margin-left: 24px;
   margin-right: 24px;
   min-height: 595px;
@@ -279,7 +275,7 @@
 }
 
 .footer {
-  margin: 190px 50px 88px;
+  margin: 178px 50px 88px;
   min-height: 100px;
   display: flex;
   justify-content: space-between;
@@ -295,7 +291,7 @@
 }
 
 .footer-menu {
-  margin-left: 17px;
+  margin-left: 18px;
   line-height: 1.17;
 }
 
